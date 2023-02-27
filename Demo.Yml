@@ -1,0 +1,6 @@
+- name: First Command
+  hosts: all
+  tasks:
+    - name: Hello World
+      ansible.builtin.debug:
+        msg:Hello
